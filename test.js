@@ -9,13 +9,8 @@ function msToTime(reloadTime) {
   minutes = minutes < 10 ? '0' + minutes : minutes;
   // TEST 3
   seconds = seconds < 10 ? '0' + seconds : seconds;
-<<<<<<< HEAD
-  // Main code
-  // Even better main code
-=======
   // Feature1 code
   // Even better feature 1 code
->>>>>>> feature1
   return console.log(`${hours}:${minutes}:${seconds}`);
 }
 
